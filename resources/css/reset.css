@@ -1,0 +1,33 @@
+/* Resetting default margin and padding */
+body,
+h1,
+h2,
+h3,
+p,
+ul,
+ol,
+li {
+    margin: 0;
+    padding: 0;
+}
+
+/* Ensuring box-sizing is consistent */
+* {
+    box-sizing: border-box;
+}
+
+/* Resetting list styles */
+ul,
+ol {
+    list-style: none;
+}
+
+/* Resetting typography */
+body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    text-underline-position: under;
+}
+
+/* Additional resets can be added as needed */
